@@ -4,13 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Treats by Abigail</title>
-    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fef5f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .site-header {
+            background: linear-gradient(135deg, #d4a5d9 0%, #f5c6e1 100%);
+            padding: 30px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .site-title {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        .main-nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .main-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+        .main-nav a:hover {
+            opacity: 0.8;
+        }
+        main {
+            padding: 40px 0;
+        }
+        main h2 {
+            color: #d4a5d9;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        main p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+        main ul {
+            margin: 20px 0 20px 30px;
+            list-style-type: none;
+        }
+        main ul li {
+            padding: 8px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        main ul li:before {
+            content: "🧁";
+            position: absolute;
+            left: 0;
+        }
+        .site-footer {
+            background: #d4a5d9;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-weight: 500;
+        }
+    </style>
 </head>
-<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f5f5f5;">
-    <header class="site-header"  >
+<body>
+    <header class="site-header">
         <div class="container">
             <h1 class="site-title">Sweet Treats by Abigail</h1>
-            <nav class="main-nav" style="text-align: center;" style="font-family: Georgia, 'Times New Roman', Times, serif;">
+            <nav class="main-nav">
                 <a href="index.html">Home</a>
                 <a href="Pages/about.html">About</a>
                 <a href="Pages/products.html">Products</a>
@@ -37,7 +115,7 @@
         <p>Every order is freshly baked with quality ingredients and made with love to ensure your celebration is extra special.</p>
     </main>
 
-    <footer class="site-footer" >
+    <footer class="site-footer">
         <div class="container">&copy; 2026 Sweet Treats by Abigail</div>
     </footer>
 </body>
