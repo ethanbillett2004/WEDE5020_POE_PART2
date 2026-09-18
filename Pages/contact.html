@@ -3,14 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Sweet Treats</title>
-    
+    <title>Contact - Sweet Treats by Abigail</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fef5f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .site-header {
+            background: linear-gradient(135deg, #d4a5d9 0%, #f5c6e1 100%);
+            padding: 30px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .site-title {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        .main-nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .main-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+        .main-nav a:hover {
+            opacity: 0.8;
+        }
+        main {
+            padding: 40px 0;
+        }
+        main h2 {
+            color: #d4a5d9;
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        .contact-info {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            max-width: 600px;
+        }
+        .contact-info p {
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+        .contact-info strong {
+            color: #d4a5d9;
+        }
+        .site-footer {
+            background: #d4a5d9;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-weight: 500;
+        }
+    </style>
 </head>
-<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-    <header class="site-header" >
+<body>
+    <header class="site-header">
         <div class="container">
             <h1 class="site-title">Sweet Treats by Abigail</h1>
-            <nav class="main-nav" style="text-align: center;">
+            <nav class="main-nav">
                 <a href="../index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="products.html">Products</a>
@@ -21,30 +95,17 @@
     </header>
 
     <main class="container">
-        <h2>Contact</h2>
-        <h3>Get in Touch</h3>
-        <p>We'd love to help make your next celebration even sweeter!</p>
-        
-        <h3>Location</h3>
-        <p>Booysens Park, Gqeberha (Port Elizabeth)</p>
-        
-        <h3>Phone / WhatsApp</h3>
-        <p>071 108 4105</p>
-        
-        <h3>Business Hours</h3>
-        <ul>
-            <li><strong>Monday – Friday:</strong> 08:00 – 17:00</li>
-            <li><strong>Saturday:</strong> 08:00 – 13:00</li>
-            <li><strong>Sunday:</strong> Closed</li>
-        </ul>
-        
-        <p>You can also contact us through our enquiry form or send us a WhatsApp message for quotations, availability, and custom orders.</p>
-        
-        <h3>Sweet Treats by Abigail</h3>
-        <p>Made with love, just for you.</p>
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> info@sweettreatsbyabigail.com</p>
+            <p><strong>Phone:</strong> +27 (0) 123 456 7890</p>
+            <p><strong>Address:</strong> 123 Cake Street, Sweet City, SC 12345</p>
+            <p><strong>Hours:</strong> Monday - Friday: 9am - 5pm | Saturday: 10am - 3pm</p>
+            <p>For custom orders and enquiries, please contact us using the information above or use our enquiry form.</p>
+        </div>
     </main>
 
-    <footer class="site-footer" >
+    <footer class="site-footer">
         <div class="container">&copy; 2026 Sweet Treats by Abigail</div>
     </footer>
 </body>
