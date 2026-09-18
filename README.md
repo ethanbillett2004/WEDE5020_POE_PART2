@@ -147,7 +147,12 @@ WEDE5020_POE_PART2/
 
 # Screenshots
 
-Add screenshots of your website here.
+<img width="1913" height="955" alt="Screenshot 2026-09-18 092440" src="https://github.com/user-attachments/assets/d7acc761-74f4-4601-b85e-7be818aefa43" />
+<img width="1905" height="956" alt="Screenshot 2026-09-18 092430" src="https://github.com/user-attachments/assets/4f359a77-184f-4333-924b-fd758183d59d" />
+<img width="1907" height="944" alt="Screenshot 2026-09-18 092500" src="https://github.com/user-attachments/assets/8b300b8a-b12c-497b-a735-aee72e10da00" />
+<img width="1918" height="950" alt="Screenshot 2026-09-18 092520" src="https://github.com/user-attachments/assets/1da0b892-102c-4d0f-86f5-fc60774610ca" />
+<img width="1905" height="949" alt="Screenshot 2026-09-18 092510" src="https://github.com/user-attachments/assets/44d8ef4e-b4cb-4203-b997-3af136b0b7c8" />
+
 
 # Author
 
